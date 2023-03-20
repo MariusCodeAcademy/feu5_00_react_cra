@@ -1,15 +1,12 @@
 import Header from './components/layout/Header';
+import Hero from './components/Hero';
 import './App.css';
 
 function App() {
   return (
     <div className="container">
       <Header />
-
-      <div className="hero">
-        <img src="https://picsum.photos/id/8/1200/800" alt="hero" />
-      </div>
-
+      <Hero />
       <div className="gridThree">
         <article className="sectionPart">
           <h3>About</h3>
